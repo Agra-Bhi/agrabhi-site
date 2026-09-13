@@ -837,7 +837,7 @@ const MONTHS_DATA = [
                     outdoors.
                 </ul>
                 <ul className="text-slate-400 list-disc pl-6 space-y-2 mb-2">
-                    2. We finished coding for the September farm visit. The plan
+                    2. Nathan finished coding for the September farm visit. The plan
                     is to walk around the field with the Pi and sensor probe and
                     take readings manually for preliminary data. A Raspberry Pi
                     sends sensor and RTK GPS data to our laptop over radio, then
@@ -856,9 +856,9 @@ const MONTHS_DATA = [
                 <ul className="text-slate-400 list-disc pl-6 space-y-2 mb-2">
                     4. We reprinted a second version of the penetration tower
                     that was taller and had a larger opening for the sensor in
-                    the plate. Then, we realized that the rods bent too much and
+                    the plate. Then, Nathan realized that the rods bent too much and
                     the top mount for the actuator didn't print properly, so
-                    Nathan sent it to Landon to print a third (and hopefully
+                    he created a new design sent it to Landon to print a third (and hopefully
                     final) version.
                 </ul>
                 <ul className="text-slate-400 list-disc pl-6 space-y-2 mb-2">
