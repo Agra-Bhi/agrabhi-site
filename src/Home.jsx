@@ -143,15 +143,7 @@ export default function Home() {
               GitHub
             </a>
             
-            <a 
-              href="https://drive.google.com/file/d/1TR2aueFCylzw7Rai_YTZquHvooWqFICa/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={toggleMenu}
-              className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-400 transition-colors"
-            >
-              Old Poster
-            </a>
+      
             
             <a 
               href="https://agrabhi.com/dashboard.html" 
@@ -303,7 +295,7 @@ export default function Home() {
       Implementation on Farms
     </h3>
     <p className="text-slate-400 font-light text-sm leading-relaxed">
-       AgraBhi is being implemented in collaboration with the Texas A&M AgriLife Extension and their partner farms. Our soil moisture data will help farmers' planting decisions, and our visual crop data with ArmCam (more on this soon) will help the analytical models AgriLife uses to predict crop yield by providing cotton boll counts.
+       AgraBhi is being implemented in collaboration with the Texas A&M AgriLife Extension and their partner farms. Our soil moisture data helps farmers' planting decisions, and our visual crop data (more information on this soon) helps the analytical models AgriLife uses to predict crop yield by providing cotton boll counts.
      </p>
   </div>
 </div>
@@ -319,11 +311,12 @@ export default function Home() {
   <section id="poster" className="py-2 scroll-mt-24">
   <hr className="border-slate-900 mb-3" />
   <h2 className="text-sm font-bold uppercase tracking-wider text-emerald-400 mb-6">
-    Old Work (Drone Project)
+    Old Work
   </h2>
 
+  <p className="mt-3 mb-3 text-slate-400">This was a soil moisture drone project created during the 2025–2026 school year by Nathan Sharma (founder and lead), Evan Quach, and Landon Morrison.  </p>
   {/* Hidden on small screens, shown on md and up */}
-   <div className="mt-6 mx-auto relative aspect-video rounded-xl overflow-hidden border border-slate-800 bg-black w-full md:w-[70%]">
+   <div className="mt-6 mb-6 mx-auto relative aspect-video rounded-xl overflow-hidden border border-slate-800 bg-black w-full md:w-[70%]">
     <iframe
       className="absolute top-0 left-0 w-full h-full"
       src="https://www.youtube.com/embed/Bgpvw7TuoMc"
@@ -332,15 +325,7 @@ export default function Home() {
       allowFullScreen
     ></iframe>
   </div>
-  <div className="hidden md:block bg-[#161B22] border border-slate-800 p-1 rounded-xl shadow-xl mt-4 mb-4">
-    <div className="bg-[#0D1117] w-full h-[800px] overflow-hidden rounded-lg">
-      <iframe
-        src="/poster.pdf"
-        className="w-full h-full border-none"
-        title="AgraBhi Research Poster"
-      ></iframe>
-    </div>
-  </div>
+
 
   {/* Visible on all screens, centered, with dynamic width for mobile vs desktop */}
  

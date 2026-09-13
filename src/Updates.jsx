@@ -1794,15 +1794,7 @@ export default function About() {
                                 GitHub
                             </a>
 
-                            <a
-                                href="https://drive.google.com/file/d/1TR2aueFCylzw7Rai_YTZquHvooWqFICa/view?usp=sharing"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                onClick={toggleMenu}
-                                className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-400 transition-colors"
-                            >
-                                Old Poster
-                            </a>
+                       
 
                             <a
                                 href="https://agrabhi.com/dashboard.html"
