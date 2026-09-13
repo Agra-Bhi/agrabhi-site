@@ -66,6 +66,7 @@ import twotowers from "/twotowers.png";
 import v2tower from "/v2tower.PNG";
 import v3printing from "/v3printing.jpeg";
 import towerv3rover from "/towerv3rover.PNG";
+import sepfarm1 from "/sepfarm1.jpeg"
 
 const MONTHS_DATA = [
     {
@@ -824,7 +825,7 @@ const MONTHS_DATA = [
     },
     {
         name: "August",
-        year: "2026",
+        year: "2026", 
         content: (
             <div className="text-slate-500 pt-1">
                 <p className="text-slate-400 leading-relaxed mb-2">
@@ -1434,6 +1435,41 @@ const MONTHS_DATA = [
         year: "2026",
         content: (
             <div className="text-slate-500 pt-1">
+
+     <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    September 4th, 2026: First farm visit of the month. Landon ananlyzed the crops for rover navigation and drivability with the robotic arm. In two weeks, they will visit again so Nathan can begin collecting preliminary moisture data.
+                </p>
+            <div className="flex flex-col md:flex-row gap-6 items-stretch w-full mb-4">
+    {/* Image Figure 1 */}
+    <figure className="flex flex-col flex-1">
+        <div className="w-full aspect-video overflow-hidden">
+            <img
+                src={sepfarm1}
+                alt="First farm visit picture"
+                className="w-full h-full object-contain"
+            />
+        </div>
+    </figure>
+
+    {/* Video Figure 2 */}
+    <figure className="flex flex-col flex-1">
+        <div className="w-full aspect-video overflow-hidden">
+            <video
+                src="913vid.MOV"
+                controls
+                muted
+                preload="metadata"
+                className="w-full h-full object-contain block"
+            >
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <figcaption className="mt-4 text-sm leading-relaxed">
+        
+        </figcaption>
+    </figure>
+</div>
                 <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     September 1st, 2026: Version 3 of the penetration tower was
