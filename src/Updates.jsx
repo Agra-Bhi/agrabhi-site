@@ -67,6 +67,7 @@ import v2tower from "/v2tower.PNG";
 import v3printing from "/v3printing.jpeg";
 import towerv3rover from "/towerv3rover.PNG";
 import sepfarm1 from "/sepfarm1.jpeg"
+import supportroddesign1 from "/supportroddesign1.png"
 
 const MONTHS_DATA = [
     {
@@ -1436,6 +1437,22 @@ const MONTHS_DATA = [
         content: (
             <div className="text-slate-500 pt-1">
 
+     <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    September 16th, 2026: The penetration test on September 1st only worked when the rover had a 20-pound dumbbell on it (because of the pushback force). The rover needs to anchor itself to penetrate the ground without added weight, so we decided to use the support rods as anchors ( the rods on the sides of the tower which prevent the sensor from swaying left to right as it penetrates the ground). They will be modified so that they are metal, the top of the rod is hex-shaped, and the bottom is an auger. This way, the rover can experience more pushback force without lifting itself off the ground.
+                    </p>
+            <div className="flex flex-col md:flex-row gap-6 items-stretch w-full mb-4">
+    {/* Image Figure 1 */}
+    <figure className="flex flex-col flex-1">
+        <div className="w-full aspect-video overflow-hidden">
+            <img
+                src={supportroddesign1}
+                alt="Support rod design"
+                className="w-full h-full object-contain"
+            />
+        </div>
+    </figure>
+    </div>
      <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     September 4th, 2026: First farm visit of the month. Landon ananlyzed the crops for rover navigation and drivability with the robotic arm. In two weeks, they will visit again so Nathan can begin collecting preliminary moisture data.
