@@ -183,10 +183,36 @@ export default function ArmCam() {
       <h2 className="text-2xl font-bold text-white mb-2">
         Nathan Sharma
       </h2>
-      <p className="text-slate-400 leading-relaxed">
+      <p className="text-slate-400 leading-relaxed mb-2">
         Hi, I'm Nathan, and I am the founder and team lead of AgraBhi, a project helping farmers better manage their crops with accessible, highly accurate soil moisture data. I am a junior at Cinco Ranch High School and love research, mathematics, and science. I am very involved in and have won multiple awards in science fairs, math competitions, and TMEA and other music competitions. In my free time, I enjoy running, playing the cello, and spending time with my family.
       </p>
-    </div>
+     <div className="flex items-center gap-3 pt-1">
+    <a 
+      href="https://www.linkedin.com/in/nathan-sharma-7a42a5387" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-blue-400 hover:text-blue-300 font-medium transition-colors"
+    >
+      LinkedIn
+    </a>
+    <a 
+      href="http://instagram.com/sharmaguy10" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-purple-400 hover:text-purple-300 font-medium transition-colors"
+    >
+      Instagram
+    </a>
+        <a 
+      href="https://discord.com/users/1246905316583542919" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-blue-800 hover:text-blue-900 font-medium transition-colors"
+    >
+      Discord
+    </a>
+  </div>
+</div>
   </div>
 
   {/* GROUP 2 */}

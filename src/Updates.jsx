@@ -1726,7 +1726,7 @@ const MONTHS_DATA = [
             <div className="text-slate-500 pt-1">
             <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   October 2nd, 2026: Abstract submitted to ECPA.
+                   October 1st, 2026: Abstract submitted to ECPA.
                     </p>
 
                                      <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
