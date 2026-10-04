@@ -1723,7 +1723,29 @@ const MONTHS_DATA = [
         name: "October",
         year: "2026",
         content: (
-            <div className="text-slate-500 italic pt-1">No updates yet.</div>
+            <div className="text-slate-500 pt-1">
+            <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   October 2nd, 2026: Abstract submitted to ECPA.
+                    </p>
+
+                                     <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                
+                    {/* Image 1 */}
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="ecpasubmission.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                
+                </div>
+                    </div>
+                    
         ),
     },
     {
