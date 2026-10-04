@@ -1452,7 +1452,7 @@ const MONTHS_DATA = [
         <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
                  <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <video
-                            src="926process.MOV"
+                            src="/926process.MOV"
                             controls
                             muted
                             preload="metadata"
@@ -1468,7 +1468,7 @@ const MONTHS_DATA = [
                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="926screenshot.PNG"
+                                src="/926screenshot.PNG"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
@@ -1482,7 +1482,7 @@ const MONTHS_DATA = [
             <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="landonmeasurement.PNG"
+                                src="/landonmeasurement.PNG"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
@@ -1496,7 +1496,7 @@ const MONTHS_DATA = [
                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="fieldtexturetilled.jpg"
+                                src="/fieldtexturetilled.jpg"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
@@ -1509,7 +1509,7 @@ const MONTHS_DATA = [
                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="badvariogram.png"
+                                src="/badvariogram.png"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
@@ -1522,7 +1522,7 @@ const MONTHS_DATA = [
                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="landonfarmpic926.png"
+                                src="/landonfarmpic926.png"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
@@ -1532,7 +1532,7 @@ const MONTHS_DATA = [
                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="nathanfarmpic926.jpeg"
+                                src="/nathanfarmpic926.jpeg"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
@@ -1546,7 +1546,7 @@ const MONTHS_DATA = [
                <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
                  <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <video
-                            src="roverinitialdrivetest.MOV"
+                            src="/roverinitialdrivetest.MOV"
                             controls
                             muted
                             preload="metadata"
@@ -1568,7 +1568,7 @@ const MONTHS_DATA = [
                       <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
                  <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <video
-                            src="landonfrolicking.MOV"
+                            src="/landonfrolicking.MOV"
                             controls
                             muted
                             preload="metadata"
@@ -1593,7 +1593,7 @@ const MONTHS_DATA = [
             <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="boxsetup.png"
+                                src="/boxsetup.png"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
@@ -1604,7 +1604,7 @@ const MONTHS_DATA = [
                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="suppliessepvis2.png"
+                                src="/suppliessepvis2.png"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
@@ -1735,7 +1735,7 @@ const MONTHS_DATA = [
                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="ecpasubmission.png"
+                                src="/ecpasubmission.png"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
