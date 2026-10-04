@@ -67,6 +67,7 @@ import v2tower from "/v2tower.PNG";
 import v3printing from "/v3printing.jpeg";
 import towerv3rover from "/towerv3rover.PNG";
 import sepfarm1 from "/sepfarm1.jpeg"
+import boxsecondvisit from "/boxsecondvisit.png"
 import supportroddesign1 from "/supportroddesign1.png"
 
 const MONTHS_DATA = [
@@ -1442,6 +1443,178 @@ const MONTHS_DATA = [
     {/* Image Figure 1 */}
 
     </div>
+
+<p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    September 26th, 2026: Third farm visit (redo of the last farm visit). We got permission to go to the farm without supervision. This time, data collection was successful. However, after inputting the data into our models, we found no spatial correlation between the data points and the kriging model was not a strong predictor (analyzed the uniform heatmap, where we collected 30 equally spaced out measurements across the field and put them into the Ordinary Kriging model, using LOOCV and by looking at the empirical variogram). We observed that the field was very dry and gravelly because it was just tilled, and the sensor's moisture readings depended on whether we placed it in the piles of topsoil or directly into the ground in the valleys between the piles. Therefore, we believe the problem is likely that tilling complicated the moisture patterns on the field. We are speaking with Mr. Taylor next week to confirm our suspicions and see if the field just needs time for its moisture patterns to settle before we collect data.
+
+</p>
+        <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                 <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <video
+                            src="926process.MOV"
+                            controls
+                            muted
+                            preload="metadata"
+                            className="w-full h-auto aspect-video object-cover block"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
+                                 <figcaption className="mt-4 text-sm leading-relaxed">
+        Video of data collection process. First, one person would use the phone map to go to the general area of the sample point. Then, the person at the laptop would provide distances from the true point using the RTK GPS. The sample would then be logged (data was sent over the USB radio modules).
+        </figcaption>
+                    </div>
+                    {/* Image 1 */}
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="926screenshot.PNG"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                                     <figcaption className="mt-4 text-sm leading-relaxed">
+        Screenshot of map with sample points (created with Google My Maps) 
+        </figcaption>
+                    </div>
+
+                    {/* Image 2 */}
+            <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="landonmeasurement.PNG"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                            <figcaption className="mt-4 text-sm leading-relaxed">
+        Landon taking readings at a point on the field with the box
+        </figcaption>
+                    </div>
+
+                    {/* Image 3 */}
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="fieldtexturetilled.jpg"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        <figcaption className="mt-4 text-sm leading-relaxed">
+        Gravelly texture of the field
+        </figcaption>
+                    </div>
+
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="badvariogram.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                                     <figcaption className="mt-4 text-sm leading-relaxed">
+        This was the variogram we got from collecting moisture data over 30 equally spaced out points on the field. Good variograms should look like a curve that starts steep and levels off (visually similar to a logarithmic curve). Variograms plot the variation in moisture values between a pair of points on the field as the distance between them increases.
+        </figcaption>
+                    </div>
+
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="landonfarmpic926.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                                     
+                    </div>
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="nathanfarmpic926.jpeg"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                                     
+                    </div>
+                </div>
+ <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    September 21st, 2026: Parts to hold everything together were 3d printed and attached to the rover using adhesive stickers. The rover was able to  be controlled by the Raspberry Pi with the USB C to A cable, but it drives in bursts (suddenly jerks forward, then stops, then jerks forward again multiple times very quickly). The next steps are to get it driving more stably and controlled by the RTK GPS (driving to GPS waypoints). </p>
+               <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                 <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <video
+                            src="roverinitialdrivetest.MOV"
+                            controls
+                            muted
+                            preload="metadata"
+                            className="w-full h-auto aspect-video object-cover block"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
+                    
+                 
+
+       </div>
+
+                 
+                </div>
+ <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    September 19th, 2026: Second farm visit of the month. Nathan prepared a box holding the Raspberry Pi, Arduino, SparkFun GPS, and radio module. Nathan and Landon walked around the field with this box to collect GPS and moisture data, which was then sent back to the laptop over the radio. However, it was extremely hot, and by mid-afternoon we could only collect 5-10 points. Nathan also didn't prepare a map to tell us exactly where to sample, so we scrapped the visit for next week.
+                    </p>
+                      <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                 <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <video
+                            src="landonfrolicking.MOV"
+                            controls
+                            muted
+                            preload="metadata"
+                            className="w-full h-auto aspect-video object-cover block"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
+                    
+                    </div>
+                    {/* Image 1 */}
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src={boxsecondvisit}
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Image 2 */}
+            <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="boxsetup.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Image 3 */}
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="suppliessepvis2.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+                </div>
+     <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    September 14th, 2026: Nathan planned out the layout for rover parts and sent designs for holding everything together to Landon for printing.
+                    </p>
      <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     September 4th, 2026: First farm visit of the month. Landon ananlyzed the crops for rover navigation and drivability with the robotic arm. In two weeks, they will visit again so Nathan can begin collecting preliminary moisture data.
@@ -1606,7 +1779,7 @@ const MONTHS_DATA = [
 
 export default function About() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [currentMonthIndex, setCurrentMonthIndex] = useState(4);
+    const [currentMonthIndex, setCurrentMonthIndex] = useState(5);
 
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
