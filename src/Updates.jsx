@@ -1724,6 +1724,24 @@ const MONTHS_DATA = [
         year: "2026",
         content: (
             <div className="text-slate-500 pt-1">
+                   <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   October 4th, 2026: First autonomous GPS test! This assumed the rover was directly in front of its waypoint and drove in a perfectly straight line. This obviously won't be true on the farm field because of its uneven terrain, and the rover needs a way to position itself in front of the point, so we're getting a compass to allow it to adjust its heading. This test showed that the GPS idea is much simpler than we thought. All we need is for the rover to drive the correct horizontal and vertical distances (since any line connecting two points can be the hypotenuse of a right triangle with horizontal and vertical components), using a compass to initially orient itself and continuously check its location to make sure it doesn't drift off course. 
+                   </p>
+                   <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                
+        
+                   <div className="w-[48%] aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <iframe
+                                className="w-full h-full"
+                                src="https://www.youtube.com/embed/UPiyOyrTuow"
+                                title="October 4th, 2026 update"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                        </div> 
+                      
             <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                    October 1st, 2026: Abstract submitted to ECPA.
