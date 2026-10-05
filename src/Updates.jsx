@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { InlineMath, BlockMath } from 'react-katex';
+import 'katex/dist/katex.min.css';
 import { Link } from "react-router-dom";
 import logo from "/blogo.png";
 import api from "/api.png";
@@ -1726,7 +1728,12 @@ const MONTHS_DATA = [
             <div className="text-slate-500 pt-1">
                    <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   October 4th, 2026: First autonomous GPS test! This assumed the rover was directly in front of its waypoint and drove in a perfectly straight line. This obviously won't be true on the farm field because of its uneven terrain, and the rover needs a way to position itself in front of the point, so we're getting a compass to allow it to adjust its heading. This test showed that the GPS idea is much simpler than we thought. All we need is for the rover to drive the correct horizontal and vertical distances (since any line connecting two points can be the hypotenuse of a right triangle with horizontal and vertical components), using a compass to initially orient itself and continuously check its location to make sure it doesn't drift off course. 
+                    October 4th, 2026: First autonomous GPS test! This assumed the rover was directly in front of its waypoint and drove in a perfectly straight line. This obviously won't be true on the farm field because of its uneven terrain, and the rover needs a way to position itself in front of the point, so we're getting a compass to allow it to adjust its heading. This test showed that the GPS idea is much simpler than we thought. All we need is for the rover to drive in a straight line in the direction of the correct compass heading and use the compass as its driving to check itself and make sure it doesn't drift off course (since the rover will be driving on an empty field before any crops are planted). The formula for the compass heading in degrees would be <div style={{ fontSize: '0.9rem' }}><BlockMath math = {`
+    \\theta = \\frac{180}{\\pi} \\cdot \\operatorname{atan2}\\left(
+      (\\text{lon}_{\\text{target}} - \\text{lon}_{\\text{rover}}) \\cdot \\cos\\left(\\frac{(\\text{lat}_{\\text{target}} + \\text{lat}_{\\text{rover}}) \\cdot \\pi}{360}\\right), 
+      \\text{lat}_{\\text{target}} - \\text{lat}_{\\text{rover}}
+    \\right)
+  `} /></div>where atan2(y,x) is the arctan function in python that's able to distinguish between all four quadrants. 
                    </p>
                    <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
                 
