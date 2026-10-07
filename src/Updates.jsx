@@ -1651,6 +1651,22 @@ const MONTHS_DATA = [
         </figcaption>
     </figure>
 </div>
+            <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    September 2nd 2026: Robotic arm panorama demo - Landon created a script to test out the robotic arm’s capabilities and mimic taking a panoramic photo, it went really well!
+                </p>
+            <div className="flex flex-col md:flex-row gap-6 items-stretch w-full mb-4">
+    {/* Image Figure 1 */}
+    <figure className="flex flex-col flex-1">
+        <div className="w-full aspect-video overflow-hidden">
+            <img
+                src="ArmDemo.mov"
+                alt="Demo of robotic arm panorama"
+                className="w-full h-full object-contain"
+            />
+        </div>
+    </figure>
+</div>
                 <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     September 1st, 2026: Version 3 of the penetration tower was
@@ -1699,22 +1715,6 @@ const MONTHS_DATA = [
                         </video>
                         <p className="mt-2 text-xs text-slate-400 text-center">
                             Tower v3
-                        </p>
-                    </div>
-
-                    {/* Image 3 */}
-                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
-                        <video
-                            src="testingroboarm.MOV"
-                            controls
-                            muted
-                            preload="metadata"
-                            className="w-full h-auto aspect-video object-cover block"
-                        >
-                            Your browser does not support the video tag.
-                        </video>
-                        <p className="mt-2 text-xs text-slate-400 text-center">
-                            Testing robotic arm
                         </p>
                     </div>
                 </div>
