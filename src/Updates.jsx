@@ -1726,6 +1726,38 @@ const MONTHS_DATA = [
         year: "2026",
         content: (
             <div className="text-slate-500 pt-1">
+                         <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    October 10th, 2026: Second autonomous GPS test! The rover was able to successfully navigate to a waypoint using its gyroscope and RTK GPS regardless of its starting orientation. We decided a compass would not work because it's unreliable on bumpy terrain or when near electronics. Below is a summary of how our current approach works, along with some videos. Note that the slipper is where the target coordinates were.
+                    
+ </p>
+
+  <p className="text-slate-400 leading-relaxed mb-4 text-xs">
+The rover calculates its initial heading by driving a short distance straight. The GPS coordinates of its start and end positions give the initial heading (heading given two gps coordiantes = (180/π) × atan2( (lon_target − lon_rover) × cos(starting latitude),  lat_target − lat_rover)).
+
+Its current heading/gyro heading is calculated 40 times per second as previous heading + (gyro yaw rate from the esp − bias) × (time since the last reading). bias is the average yaw rate reading when the rover is completely still. The rover does this calibration on startup.
+
+Its target heading is calculated 20 times per second as the direction from its current location to a dummy point, using the same heading formula for 2 GPS coordinates. The dummy point is 1 m ahead of the rover's progress projected onto the planned line. The planned line is the line connecting the rover's location after it finished the short drive for initial heading to the target location. Near the end, the dummy point becomes the target itself.
+
+Every 30 cm of straight driving, the GPS course corrects the heading and the gyro bias to prevent drift. It does this by calculating heading between the GPS coordinate of the rover's location 30 cm ago and its current location and compares it to the average gyro heading. The average gyro heading is calculated by averaging the gyro headings from the start and end of the 30 cm drive. The rover's current heading is corrected by doing heading += 0.3*(GPS course - average gyro heading). It also corrects the rover's gyro bias by doing bias-= 0.1*(GPS course - average gyro heading)/(time since last GPS correction).
+
+The error deciding whether the rover pivots or steers is target heading − current heading. If it’s small (under 45 degrees), the rover steers while driving, correcting track speeds by adding/subtracting an adjustment proportional to the error (with a maximum adjustment of 0.2 m/s). The factor being multiplied with error is called KP_STEER in our code. If the error is large (above 45 degrees), the rover stops and pivots until its error is below 10 degrees, then goes back to driving and steering.
+   </p>
+ <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                
+        
+                   <div className="w-[48%] aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <iframe
+                                className="w-full h-full"
+                                src="https://www.youtube.com/embed/5lr6hm3ImFY"
+                                title="October 4th, 2026 update"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                        </div> 
+
+   
                    <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     October 4th, 2026: First autonomous GPS test! This assumed the rover was directly in front of its waypoint and drove in a perfectly straight line. This obviously won't be true on the farm field because of its uneven terrain, and the rover needs a way to position itself in front of the point, so we're getting a compass to allow it to adjust its heading. This test showed that the GPS idea is much simpler than we thought. All we need is for the rover to drive in a straight line in the direction of the correct compass heading to get it to the target and use the compass as its driving to check itself and make sure it doesn't drift off course. We'd probably use atan2 (a better version of the arctan function in python that can distinguish between all four quadrants) to calculate the heading, using change in longitude and latitude between the rover's current location and waypoint as the x and y inputs.
