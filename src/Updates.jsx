@@ -1568,19 +1568,7 @@ const MONTHS_DATA = [
                     September 19th, 2026: Second farm visit of the month. Nathan prepared a box holding the Raspberry Pi, Arduino, SparkFun GPS, and radio module. Nathan and Landon walked around the field with this box to collect GPS and moisture data, which was then sent back to the laptop over the radio. However, it was extremely hot, and by mid-afternoon we could only collect 5-10 points. Nathan also didn't prepare a map to tell us exactly where to sample, so we scrapped the visit for next week.
                     </p>
                       <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
-                 <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
-                        <video
-                            src="/landonfrolicking.MOV"
-                            controls
-                            muted
-                            preload="metadata"
-                            className="w-full h-auto aspect-video object-cover block"
-                        >
-                            Your browser does not support the video tag.
-                        </video>
-                    
-                    </div>
-                    {/* Image 1 */}
+               
                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
@@ -1655,18 +1643,24 @@ const MONTHS_DATA = [
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     September 2nd 2026: Robotic arm panorama demo - Landon created a script to test out the robotic arm’s capabilities and mimic taking a panoramic photo, it went really well!
                 </p>
-            <div className="flex flex-col md:flex-row gap-6 items-stretch w-full mb-4">
-    {/* Image Figure 1 */}
-    <figure className="flex flex-col flex-1">
-        <div className="w-full aspect-video overflow-hidden">
-            <img
-                src="ArmDemo.mov"
-                alt="Demo of robotic arm panorama"
-                className="w-full h-full object-contain"
-            />
-        </div>
-    </figure>
-</div>
+           <div className="flex gap-4 mb-4">
+                 <div className="min-w-0 flex flex-col">
+                        <video
+                            src="/ArmDemo.mov"
+                            controls
+                            muted
+                            preload="metadata"
+                            className="w-full h-auto aspect-video object-cover block"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
+                    
+                 
+
+       </div>
+
+                 
+                </div>
                 <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     September 1st, 2026: Version 3 of the penetration tower was
