@@ -1722,7 +1722,7 @@ const MONTHS_DATA = [
             <div className="text-slate-500 pt-1">
                          <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                    October 10th, 2026: Second autonomous GPS test! The rover was able to successfully navigate to a waypoint using its gyroscope and RTK GPS regardless of its starting orientation. We decided a compass would not work because it's unreliable on bumpy terrain or when near electronics. Below is a summary of how our current approach works, along with some videos. Note that the slipper is where the target coordinates were.
+                    October 10th, 2026: Second autonomous GPS test! The rover was able to successfully navigate to a waypoint using its gyroscope and RTK GPS regardless of its starting orientation. We decided a compass would not work because it's unreliable on bumpy terrain or when near electronics. Below is a detailed explanation of our current approach, along with footage of the successful tests and a video explanation of the process.
                     
  </p>
 
@@ -1737,19 +1737,42 @@ Every 30 cm of straight driving, the GPS course corrects the heading and the gyr
 
 The error deciding whether the rover pivots or steers is target heading − current heading. If it’s small (under 45 degrees), the rover steers while driving, correcting track speeds by adding/subtracting an adjustment proportional to the error (with a maximum adjustment of 0.2 m/s). The factor being multiplied with error is called KP_STEER in our code. If the error is large (above 45 degrees), the rover stops and pivots until its error is below 10 degrees, then goes back to driving and steering.
    </p>
- <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
-                
-        
-                   <div className="w-[48%] aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
-                            <iframe
-                                className="w-full h-full"
-                                src="https://www.youtube.com/embed/5lr6hm3ImFY"
-                                title="October 4th, 2026 update"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                            ></iframe>
-                        </div>
-                        </div> 
+      <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 scroll-smooth no-scrollbar">
+    
+    {/* Video Card 1 */}
+    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col bg-slate-900/60 border border-slate-800/80 rounded-2xl p-3 shadow-lg hover:border-slate-700 transition-all duration-300">
+        <div className="w-full aspect-video rounded-xl overflow-hidden bg-slate-950 border border-slate-800/50 shadow-inner">
+            <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/5lr6hm3ImFY"
+                title="October 10th, 2026 successful tests"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+            ></iframe>
+        </div>
+        <div className="mt-3 px-1">
+
+           
+        </div>
+    </div>
+
+    {/* Video Card 2 */}
+    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col bg-slate-900/60 border border-slate-800/80 rounded-2xl p-3 shadow-lg hover:border-slate-700 transition-all duration-300">
+        <div className="w-full aspect-video rounded-xl overflow-hidden bg-slate-950 border border-slate-800/50 shadow-inner">
+            <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/yyxXlImVlSQ"
+                title="Autonomous navigation explained"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+            ></iframe>
+        </div>
+        <div className="mt-3 px-1">
+    
+        </div>
+    </div>
+
+</div>
 
    
                    <p className="text-slate-400 leading-relaxed mb-4">
