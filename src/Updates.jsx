@@ -1722,7 +1722,7 @@ const MONTHS_DATA = [
             <div className="text-slate-500 pt-1">
                          <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                    October 10th, 2026: Second autonomous GPS test! The rover was able to successfully navigate to a waypoint using its gyroscope and RTK GPS regardless of its starting orientation. We decided a compass would not work because it's unreliable on bumpy terrain or when near electronics. Below is a detailed explanation of our current approach, along with footage of the successful tests and a video explanation of the process.
+                    October 10th, 2026: Second autonomous GPS test! The rover was able to successfully navigate to a waypoint using its gyroscope and RTK GPS regardless of its starting orientation. We decided a compass would not work because it's unreliable on bumpy terrain or when near electronics. Below is a detailed summary of our current approach, along with footage of the successful tests and a video explanation of the process.
                     
  </p>
 
