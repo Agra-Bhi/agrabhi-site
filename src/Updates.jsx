@@ -78,10 +78,7 @@ const MONTHS_DATA = [
         year: "2026",
         content: (
             <div className="space-y-4 mb-8">
-                <p className="text-slate-400 leading-relaxed text-sm font-bold">
-                    Note: Links to documents and other files in the updates page
-                    will not be public until science fair season.
-                </p>
+              
                 <p className="text-slate-400 leading-relaxed">
                     <p className="text-slate-400 leading-relaxed">
                         <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
@@ -1720,6 +1717,65 @@ const MONTHS_DATA = [
         year: "2026",
         content: (
             <div className="text-slate-500 pt-1">
+        <div className="text-slate-400 leading-relaxed mb-4 space-y-3">
+  {/* Header with bullet */}
+  <div className="flex items-start">
+    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mt-2 shrink-0"></span>
+    <span className="text-slate-400 leading-relaxed">
+      October 12th, 2026: Research plan for in-season rovers:
+    </span>
+  </div>
+
+  {/* Steps container with left padding for alignment */}
+  <div className="pl-5 space-y-2">
+    <p>Step 1: Rovers drive through with their cameras, storing images on the SSD.</p>
+    
+    <p>
+      Step 2: The images are stitched together and ran through our
+      custom-trained YOLO model with Roboflow. The rover takes pictures after
+      driving a fixed distance and will stitch these individual frames together.
+    </p>
+    
+    <p>Step 3: We identify all flagged disease areas and cotton bolls.</p>
+    
+    <p>
+      Step 4: For 100 crops identified in the images taken by the rovers, we go
+      into the field and manually count each cotton boll.
+    </p>
+    
+    <div>
+      <p className="mb-1">Step 5: For these 100 crops we calculate:</p>
+      <ul className="pl-4 space-y-1 text-sm">
+        <li>
+          Absolute value of residual for every individual crop identified in
+          the rover images = |Nactual - Npredicted|, where Npredicted= number of
+          predicted cotton bolls by the model and Nactual = number of cotton
+          bolls for that crop specifically
+        </li>
+        <li>MAE = (1/N)*(sum of absolute value of residuals of all crops)</li>
+        <li>
+          Recall = (correctly flagged disease areas by the yolo
+          model)/(total diseased areas that are visible in the camera's view)
+        </li>
+        <li>
+          Precision/true positives = (correctly flagged disease areas by the
+          yolo model)/(all flagged areas by the yolo model)
+        </li>
+      </ul>
+    </div>
+
+    <div className="pt-2">
+      <p className="text-slate-400 mb-1">
+        How in-season rovers operate as a swarm (much simpler):
+      </p>
+      <p>
+        The crop rows are counted ahead of time and divided between the 3
+        rovers. For example, if 22 rows are counted, rover 1 samples rows 1-7,
+        rover 2 samples rows 8-14, and rover 3 samples rows 15-22.
+      </p>
+    </div>
+  </div>
+</div>
                          <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     October 10th, 2026: Second autonomous GPS test! The rover was able to successfully navigate to a waypoint using its gyroscope and RTK GPS regardless of its starting orientation. We decided a compass would not work because it's unreliable on bumpy terrain or when near electronics. Below is a detailed summary of our current approach, along with footage of the successful tests and a video explanation of the process.
@@ -1955,17 +2011,7 @@ export default function About() {
                             >
                                 Home
                             </a>
-                            <a
-                                href="https://agrabhi.com/armcam.html"
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href =
-                                        "https://agrabhi.com/armcam.html";
-                                }}
-                                className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
-                            >
-                                ArmCam
-                            </a>
+                     
                             <a
                                 href="https://agrabhi.com/updates.html"
                                 onClick={(e) => {
@@ -1999,17 +2045,6 @@ export default function About() {
                                 GitHub
                             </a>
 
-                            <a
-                                href="https://agrabhi.com/dashboard.html"
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href =
-                                        "https://agrabhi.com/dashboard.html";
-                                }}
-                                className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
-                            >
-                                Dashboard
-                            </a>
                         </div>
 
                         {/* Mobile Menu Toggle Button */}
@@ -2056,17 +2091,7 @@ export default function About() {
                             >
                                 Home
                             </a>
-                            <a
-                                href="https://agrabhi.com/armcam.html"
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    window.location.href =
-                                        "https://agrabhi.com/armcam.html";
-                                }}
-                                className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
-                            >
-                                ArmCam
-                            </a>
+                        
                             <a
                                 href="https://agrabhi.com/updates.html"
                                 onClick={(e) => {
@@ -2105,18 +2130,7 @@ export default function About() {
 
                        
 
-                            <a
-                                href="https://agrabhi.com/dashboard.html"
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    toggleMenu();
-                                    window.location.href =
-                                        "https://agrabhi.com/dashboard.html";
-                                }}
-                                className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
-                            >
-                                Dashboard
-                            </a>
+                     
                         </div>
                     )}
                 </nav>

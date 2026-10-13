@@ -47,13 +47,7 @@ export default function Home() {
           {/* Desktop Nav Links */}
           <div className="hidden md:flex items-center gap-8">
             
-       <a 
-              href="https://agrabhi.com/armcam.html" 
-              onClick={(e) => { e.preventDefault(); window.location.href = "https://agrabhi.com/armcam.html"; }}
-              className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
-            >
-              ArmCam
-            </a>
+
             <a 
               href="https://agrabhi.com/updates.html" 
               onClick={(e) => { e.preventDefault(); window.location.href = "https://agrabhi.com/updates.html"; }}
@@ -79,16 +73,7 @@ export default function Home() {
               GitHub
             </a>
                
-           <a
-              href="https://agrabhi.com/dashboard.html"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "https://agrabhi.com/dashboard.html";
-              }}
-             className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
-             >
-              Dashboard
-            </a>
+    
           </div>
     
           {/* Mobile Menu Toggle Button */}
@@ -110,13 +95,7 @@ export default function Home() {
         {isMenuOpen && (
           <div className="md:hidden bg-[#0D1117] border-b border-slate-800 px-6 py-4 flex flex-col gap-4">
            
-            <a 
-              href="https://agrabhi.com/armcam.html" 
-              onClick={(e) => { e.preventDefault(); window.location.href = "https://agrabhi.com/armcam.html"; }}
-              className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
-            >
-              ArmCam
-            </a>
+       
             <a 
               href="https://agrabhi.com/updates.html" 
               onClick={(e) => { e.preventDefault(); toggleMenu(); window.location.href = "https://agrabhi.com/updates.html"; }}
@@ -145,13 +124,7 @@ export default function Home() {
             
       
             
-            <a 
-              href="https://agrabhi.com/dashboard.html" 
-              onClick={(e) => { e.preventDefault(); toggleMenu(); window.location.href = "https://agrabhi.com/dashboard.html"; }}
-              className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
-            >
-              Dashboard
-            </a>
+      
           </div>
         )}
       </nav>
@@ -170,7 +143,7 @@ export default function Home() {
           Agra<span className="text-emerald-400">Bhi</span>
         </h1>
         <h2 className="text-xl md:text-3xl font-medium tracking-tight text-slate-300 max-w-7xl mx-auto leading-tight animate-slide-slow">
-         Accurate, Low Cost Soil Moisture Mapping for Smarter Decisions.
+         Accurate, Low-Cost Soil & Crop Monitoring for Smarter Decisions.
         </h2>
       </header>
 
@@ -247,8 +220,8 @@ export default function Home() {
           </h2>
           <div className="text-base font-light text-slate-300 leading-relaxed">
             <p>
-              AgraBhi is a project being made to help farmers better understand soil moisture patterns on their farm fields before planting crops. Rather than relying on cameras or other contactless sensors, which can provide uncertain data, AgraBhi uses physical sensors to measure moisture at the depth where crops are being planted, significantly improving measurement accuracy. We then use interpolation models to predict moisture across the rest of the farm field. The goal of our project is to make crop decisions more informed and affordable for farmers with this data.
-            </p>
+      AgraBhi is a student-led project being made to help farmers make informed crop-management decisions throughout the growing season. Before planting, instead of relying on contactless sensors or scattered probes that provide uncertain data, AgraBhi uses probes on swarms of rovers to generate detailed soil moisture and temperature predictions across the field for optimal timing. During the growing season, AgraBhi analyzes crops (currently limited to cotton) for boll counts and signs of disease.
+      </p>
     
 
             <div className="pt-6">
@@ -258,8 +231,13 @@ export default function Home() {
               
               
               <p>
-                Soil moisture significantly changes across farm fields, and yet today, many farmers lack the data they need to make informed decisions on where to plant their crops. With this data, they can decide whether they should wait for better conditions, if they should irrigate before planting in extremely dry areas, and the best depth for sowing seeds.
-              </p>
+              Soil temperature and moisture are two critical data points farmers need to track to decide when to plant crops so seeds can germinate properly and they can maximize their yield.
+
+Additionally, when crops mature, farmers need to track growth and catch early signs of disease to keep them healthy. However, many local farms still rely on labor-intensive manual inspections to accomplish this.
+
+
+ 
+</p>
               
             </div>
 
@@ -279,24 +257,73 @@ export default function Home() {
       Drone to Rovers
     </h3>
     <p className="text-slate-400 font-light text-sm leading-relaxed">
-      An important limitation of our project last year was that the drone struggled to get through the crop canopy, and its blades could easily damage crops. To fix this, we decided to switch our project to a swarm of rovers. Each rover costs ~$1500, is autonomous, and adaptively samples the field.
+      An important limitation of our project last year was that the drone struggled to get through the crop canopy, and its blades could easily damage crops. To address this issue, we decided to switch our project to a swarm of rovers. Each rover costs ~$1500, supports two modes (pre-planting and in-season), and navigates the field autonomously.
     </p>
   </div>
   <div>
-    <h3 className="text-white font-bold mb-3 flex items-center gap-2">
-      Adaptive Sampling
-    </h3>
-    <p className="text-slate-400 font-light text-sm leading-relaxed">
-      Our rovers can improve their own predictive accuracy by driving to the most uncertain or unexplored parts of the fields in real time. The swarm starts by taking evenly distributed moisture measurements across the farm field and generates a heatmap. Then, our app receives all data from the other rovers to calculate the most unexplored or uncertain spots each of them should sample, transmitting assignments over LoRa radio.
+    <div className="space-y-4">
+  <h3 className="text-white font-bold flex items-center gap-2 mb-3">
+    Modular Design
+  </h3>
+  
+  <div className="space-y-3 text-slate-400 font-light text-sm leading-relaxed">
+    <p>
+     
+      Pre-planting: Rovers use penetration towers and sensor probes to adaptively sample soil moisture and temperature. 
     </p>
+
+    <p>
+     
+      In-Season: Robotic arms with 360-degree cameras are mounted on the rovers. As they drive through the field, they capture and stitch high-definition panoramic images, then feed them to our YOLO model to detect disease and count cotton bolls.
+      </p>
+
+       <p>
+     Rovers can easily switch between the pre-planting and in-season modes by swapping their top assemblies.
+      </p>
+  </div>
+</div>
+<div className="flex flex-col md:flex-row gap-6 items-stretch w-full mb-4 mt-10">
+  
+  {/* Image Figure 1 */}
+  <figure className="flex flex-col flex-1">
+    <div className="w-full aspect-video overflow-hidden">
+      <img
+        src="/tower.JPG"
+        alt="Tower"
+        className="w-full h-full object-contain"
+      />
+    </div>
+    <figcaption className="mt-4 text-xs text-center leading-relaxed text-slate-400"> 
+      Pre-planting, measures soil moisture across field
+    </figcaption>
+  </figure>
+
+  {/* Image Figure 2 */}
+  <figure className="flex flex-col flex-1">
+    <div className="w-full aspect-video overflow-hidden">
+      <img
+        src="/armcam.PNG"
+        alt="ArmCam"
+        className="w-full h-full object-contain"
+      />
+    </div>
+    <figcaption className="mt-4 text-xs text-center leading-relaxed text-slate-400"> 
+  In-season, uses arm with camera to analyze crops
+    </figcaption>
+  </figure>
+
+ 
+  
+
+</div>
   </div>
    <div>
     <h3 className="text-white font-bold mb-3 flex items-center gap-2">
       Implementation on Farms
     </h3>
     <p className="text-slate-400 font-light text-sm leading-relaxed">
-       AgraBhi is being implemented in collaboration with the Texas A&M AgriLife Extension and their partner farms. Our soil moisture data helps farmers' planting decisions, and our visual crop data (more information on this soon) helps the analytical models AgriLife uses to predict crop yield by providing cotton boll counts.
-     </p>
+     AgraBhi is being implemented in collaboration with the Texas A&M AgriLife Extension. Our soil moisture data help local farmers make better-informed planting decisions, and our cotton boll data provide AgriLife’s models with growth indicators, helping them better predict yield on their partner farms.
+</p>
   </div>
 </div>
 
