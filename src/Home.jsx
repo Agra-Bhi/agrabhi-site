@@ -220,7 +220,7 @@ export default function Home() {
           </h2>
           <div className="text-base font-light text-slate-300 leading-relaxed">
             <p>
-      AgraBhi is a student-led project being made to help farmers make informed crop-management decisions throughout the growing season. Before planting, instead of relying on contactless sensors or scattered probes that provide uncertain data, AgraBhi uses probes on swarms of rovers to generate detailed soil moisture and temperature predictions across the field for optimal timing. During the growing season, AgraBhi analyzes crops (currently limited to cotton) for boll counts and signs of disease.
+      AgraBhi is a student-led project being made to help farmers make informed crop-management decisions throughout the growing season. Before planting, instead of relying on contactless sensors or sparsely scattered probes that provide uncertain data, AgraBhi uses probes on swarms of rovers to generate detailed soil moisture and temperature predictions across the field. During the growing season, AgraBhi analyzes crops (currently limited to cotton) for boll counts and disease.
       </p>
     
 
