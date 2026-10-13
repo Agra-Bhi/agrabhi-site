@@ -1539,6 +1539,78 @@ const MONTHS_DATA = [
                                      
                     </div>
                 </div>
+
+
+               <p className="text-slate-400 leading-relaxed mb-4">
+    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+    September 23rd, 2026:
+    
+    <ul className="list-disc list-inside pl-6 mt-2 space-y-1">
+      <li>Landon took 2d scans of the tread frame and recreated it in fusion</li>
+      <li>The print came out great, and it everything fit; but some of the holes weren’t aligned 1:1</li>
+    </ul>
+    <ul className="list-disc list-inside pl-6 mt-1 space-y-1">
+      <li>Finished the tread frame recreations, its almost 1:1</li>
+      <li>Worked on creating tread links to go onto the new frame</li>
+      <li>Expanded the frame to support a longer tread</li>
+      <li>The new tread frame prototype fits well, we are having a metal version CNC’d to property test it - in the meantime, he printed out the tread links he made to fit onto the new frame</li>
+      <li>The new frame fits and works while on! Now we just need to attach the track links to complete it</li>
+      <li>With the new links on, the rover moves perfectly fine, but now with more balance!</li>
+    </ul>
+  </p>
+                      <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+               
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/treadsoff.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Image 2 */}
+            <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/treadsoff2.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Image 3 */}
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/treaddesignlandon.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/matching.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/matching2.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+                </div>
+
  <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     September 21st, 2026: Parts to hold everything together were 3d printed and attached to the rover using adhesive stickers. The rover was able to  be controlled by the Raspberry Pi with the USB C to A cable, but it drives in bursts (suddenly jerks forward, then stops, then jerks forward again multiple times very quickly). The next steps are to get it driving more stably and controlled by the RTK GPS (driving to GPS waypoints). </p>
