@@ -157,7 +157,7 @@ export default function ArmCam() {
         Nathan Sharma
       </h2>
       <p className="text-slate-400 leading-relaxed">
-        Hi, I'm Nathan, and I am the founder and team lead of AgraBhi, a project helping farmers better manage their crops with accessible, highly accurate soil moisture data. I am a junior at Cinco Ranch High School and love research, mathematics, and science. I am very involved in and have won multiple awards in science fairs, math competitions, and TMEA and other music competitions. In my free time, I enjoy running, playing the cello, and spending time with my family.
+        Hi, I'm Nathan, and I am the founder and team lead of AgraBhi, a project helping farmers better manage their crops with accessible and accurate data on their fields. I am a junior at Cinco Ranch High School and love research, mathematics, and science. I am very involved in and have won multiple awards in science fairs, math competitions, and TMEA and other music competitions. In my free time, I enjoy running, playing the cello, and spending time with my family.
       </p>
      <div className="flex items-center gap-3 pt-1 mt-2">
     <a 
