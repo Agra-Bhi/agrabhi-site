@@ -210,32 +210,6 @@ export default function ArmCam() {
         Hi, I'm Landon, and I'm a student at Cinco Ranch High School and co-founder of AgraBhi. I've always been interested in anything related to technology, and I've created lots of 3d models and designs using various programs like CAD and Blender. In my free time, I enjoy chess, gaming, and spending time with family and friends.
       </p>
          <div className="flex items-center gap-3 pt-1 mt-2">
-    <a 
-      href="https://www.linkedin.com/in/nathan-sharma-7a42a5387" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      className="text-blue-400 hover:text-blue-300 font-medium transition-colors"
-    >
-      LinkedIn
-    </a>
-    •
-    <a 
-      href="http://instagram.com/sharmaguy10" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      className="text-purple-400 hover:text-purple-300 font-medium transition-colors"
-    >
-      Instagram
-    </a>
-    •
-        <a 
-      href="https://discord.com/users/1246905316583542919" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      className="text-blue-800 hover:text-blue-900 font-medium transition-colors"
-    >
-      Discord
-    </a>
   </div>
     </div>
   </div>
