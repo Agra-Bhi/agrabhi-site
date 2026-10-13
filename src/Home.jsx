@@ -337,7 +337,7 @@ Additionally, when crops mature, farmers need to track growth and catch early si
        
   <section id="poster" className="py-2 scroll-mt-24">
   <hr className="border-slate-900 mb-3" />
-  <h2 className="text-sm font-bold uppercase tracking-wider text-emerald-400 mb-6">
+  <h2 className="text-sm font-bold uppercase tracking-wider text-emerald-400 mb-3">
     Old Work
   </h2>
 
