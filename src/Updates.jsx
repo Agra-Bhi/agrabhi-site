@@ -1717,6 +1717,12 @@ const MONTHS_DATA = [
         year: "2026",
         content: (
             <div className="text-slate-500 pt-1">
+                 <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    October 13th, 2026:  Nathan will get the SSD and write code for the Pi to take pictures with the ArduCam, stitch them into a 360 panorama, and log GPS coordinates into the metadata. Landon will code a program that stitches these panoramas into a full view of the farm.
+
+
+ </p>
         <div className="text-slate-400 leading-relaxed mb-4 space-y-3">
   {/* Header with bullet */}
   <div className="flex items-start">
