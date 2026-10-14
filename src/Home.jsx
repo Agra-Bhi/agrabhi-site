@@ -282,39 +282,48 @@ Additionally, when crops mature, farmers need to track growth and catch early si
       </p>
   </div>
 </div>
-<div className="flex flex-col md:flex-row gap-6 items-stretch w-full mb-4 mt-10">
-  
+<div className="flex flex-col md:flex-row gap-6 items-stretch w-full my-10">
   {/* Image Figure 1 */}
-  <figure className="flex flex-col flex-1">
-    <div className="w-full aspect-video overflow-hidden">
+  <figure className="flex flex-col flex-1 bg-slate-900/50 rounded-xl p-4 border border-slate-800">
+    <div className="w-full aspect-video overflow-hidden rounded-lg bg-black/20">
       <img
         src="/tower.JPG"
         alt="Tower"
         className="w-full h-full object-contain"
       />
     </div>
-    <figcaption className="mt-4 text-xs text-center leading-relaxed text-slate-400"> 
+    <figcaption className="mt-3 text-xs text-center leading-relaxed text-slate-400">
       Pre-planting, measures soil moisture across field
     </figcaption>
   </figure>
 
   {/* Image Figure 2 */}
-  <figure className="flex flex-col flex-1">
-    <div className="w-full aspect-video overflow-hidden">
+  <figure className="flex flex-col flex-1 bg-slate-900/50 rounded-xl p-4 border border-slate-800">
+    <div className="w-full aspect-video overflow-hidden rounded-lg bg-black/20">
       <img
         src="/armcam.PNG"
         alt="ArmCam"
         className="w-full h-full object-contain"
       />
     </div>
-    <figcaption className="mt-4 text-xs text-center leading-relaxed text-slate-400"> 
-  In-season, uses arm with camera to analyze crops
+    <figcaption className="mt-3 text-xs text-center leading-relaxed text-slate-400">
+      In-season, uses arm with camera to analyze crops
     </figcaption>
   </figure>
 
- 
-  
-
+  {/* Image Figure 3 */}
+  <figure className="flex flex-col flex-1 bg-slate-900/50 rounded-xl p-4 border border-slate-800">
+    <div className="w-full aspect-video overflow-hidden rounded-lg bg-black/20">
+      <img
+        src="/sepfarm1.jpeg"
+        alt="Prototypes"
+        className="w-full h-full object-contain"
+      />
+    </div>
+    <figcaption className="mt-3 text-xs text-center leading-relaxed text-slate-400">
+      Nathan & Landon with prototypes
+    </figcaption>
+  </figure>
 </div>
   </div>
    <div>
