@@ -1791,7 +1791,7 @@ const MONTHS_DATA = [
             <div className="text-slate-500 pt-1">
                  <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                    Landon and Nathan shared their work with FLL (First Lego League) Student AgriLife Innovators.
+                    October 23rd, 2026: Landon and Nathan shared their work with First Lego League students working with AgriLife.
                     </p>
                  <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
