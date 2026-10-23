@@ -1791,6 +1791,13 @@ const MONTHS_DATA = [
             <div className="text-slate-500 pt-1">
                  <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    Landon and Nathan shared their work with FLL (First Lego League) Student AgriLife Innovators.
+                    </p>
+                 <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    October 22nd, 2026: Accepted for oral presentation and full paper publication at the 2027 European Conference on Precision Agriculture! Updates from Mr. Taylor: There wil be another meeting on November 10th regarding the Croptwin AI model. We decided we would have a Pi 0 connected to the camera and 3d print a holder for it. Pi 0 should arrive by October 26th. Nathan's treaded rover arrived, he is making refinements to his penetration tower design so it can fit on the new rover. Landon is continuing to work on the cotton models, extending treads, and panoramic movements with the robotic arm. Mr. Taylor also helped us realize that we were measuring moisture in the wrong areas (we were supposed to measure the mounds with the probes, not the valleys).</p>
+                 <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     October 13th, 2026:  Nathan will get the SSD and write code for the Pi to take pictures with the ArduCam, stitch them into a 360 panorama, and log GPS coordinates into the metadata. Landon will code a program that stitches these panoramas into a full view of the farm.
 
 
