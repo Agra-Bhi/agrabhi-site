@@ -1791,7 +1791,7 @@ const MONTHS_DATA = [
             <div className="text-slate-500 pt-1">
                  <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                    October 23rd, 2026: Landon and Nathan shared their work with First Lego League students working with AgriLife. Nathan also redesigned the penetration tower so it will work on the treaded rover. Landon will 3d print all parts tomorrow. Then, the moisture rover should be ready for field testing!
+                    October 23rd, 2026: Landon and Nathan shared their work with First Lego League students working with AgriLife. Nathan also redesigned the penetration tower so it will work on the treaded rover. Landon will 3d print all parts tomorrow. Once Landon finishes extending the treads for stability, the moisture rover should be ready for field testing!
                     </p>
                  <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>

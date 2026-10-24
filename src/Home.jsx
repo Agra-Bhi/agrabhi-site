@@ -274,7 +274,7 @@ Additionally, when crops mature, farmers need to track growth and catch early si
 
     <p>
      
-      In-Season: Robotic arms with 360-degree cameras are mounted on the rovers. As they drive through the field, they capture and stitch high-definition panoramic images, then feed them to our YOLO model to detect disease and count cotton bolls.
+      In-Season: Robotic arms with Arducams are mounted on the rovers. As they drive through the field, the arms turn to capture and stitch high-definition panoramic images, then feed them to our YOLO model to detect disease and count cotton bolls.
       </p>
 
        <p>
