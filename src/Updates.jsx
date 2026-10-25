@@ -1799,7 +1799,7 @@ const MONTHS_DATA = [
                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="/treadedwithtower.png"
+                                src="/treadedwithtower2.png"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
