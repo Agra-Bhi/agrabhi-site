@@ -1791,6 +1791,25 @@ const MONTHS_DATA = [
             <div className="text-slate-500 pt-1">
                  <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                    October 24th, 2026:  Significant changes to how the pre-planting rover will sample. Moisture varies significantly between mounds and furrows, so our acquisition function wouldn't work because it would calculate an artificially high moisture gradient there. Instead, the rovers will sample perpendicular to the rows and use Kriged RTK elevation data as a covariate in Regression Kriging to predict moisture (we expect a general trend: high elevation correlates with less moisture, low elevation correlates with more moisture). The rovers will sample adaptively by checking whether the difference between their current and previous moisture measurements exceeds the standard deviation of their last four measurements. If it does, the rover will go back and take an additional sample between those points. Also, the penetration tower was successfully mounted on the treaded rover.
+                    </p>
+                                               <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                
+                    {/* Image 1 */}
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/treadedwithtower.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                
+                </div>
+                 <p className="text-slate-400 leading-relaxed mb-4">
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                     October 23rd, 2026: Landon and Nathan shared their work with First Lego League students working with AgriLife. Nathan also redesigned the penetration tower so it will work on the treaded rover. Landon will 3d print all parts tomorrow. Once Landon finishes extending the treads for stability, the moisture rover should be ready for field testing!
                     </p>
                  <p className="text-slate-400 leading-relaxed mb-4">
