@@ -1847,7 +1847,7 @@ const MONTHS_DATA = [
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                    October 30th, 2026: Landon successfully extended the rover's treads by designing the frame in Blender and 3D-printing a prototype. The final frame will be printed in carbon fiber to make it more rigid for driving.
 
-                He also 3d printed longer treads but they turned out to be rough and less detailed than the real thing, so he is going to use a resin printer instead.
+                He also 3d printed longer treads but they turned out to be rough and less detailed than the actual ones, so he is going to use a resin printer instead.
                    </p>
                           <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
                
@@ -2086,6 +2086,37 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         year: "2026",
         content: (
             <div className="text-slate-500 pt-1">
+
+                <p className="text-slate-400 leading-relaxed mb-4">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 2nd, 2026: The rover detected a small elevation change (when it was lifted it approx. 5 inches) using its RTK GPS, allowing it to set the is_mound variable for every point it samples in the field. The autonomous navigation code was also updated to send the rover's updated location to the RTK provider as it drives, rather than repeatedly sending its initial location.
+
+
+</p>
+
+          <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+               
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/1123.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+
+           
+
+          
+               
+                </div>
+
+
 
                 <p className="text-slate-400 leading-relaxed mb-4">
                     
