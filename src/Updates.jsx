@@ -2090,9 +2090,9 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                 <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   November 1st, 2026: Nathan set up panoramas with the Pi 0 by taping the camera and board to a box and manually rotating it in small increments. Using a script on the Pi 0, he took a picture after each rotation. He then sent the individual images to the Pi 5, where another program stitched them together using OpenCV and saved the final panorama to the SSD.
+                   November 1st, 2026: Nathan set up panorama capture with the Pi 0 by taping the camera and board to a box and manually rotating it in small increments. He used a script on the Pi 0 to take a picture after each rotation. Then, he sent the individual images to the Pi 5, where another program stitched them together using OpenCV and saved the final panorama to the SSD.
 
-How this applies to the rover: Instead of turning continuously, the arm will rotate in small increments and signal the Pi 0 to take a picture after each step. Once the arm is done turning, it will tell the Pi 0 to send all the images to the Pi 5 for stitching and storage.
+How this applies to the rover: Instead of turning continuously, the arm will rotate in small increments and signal the Pi 0 to take a picture after each step. Once the arm is done turning and taking pictures, it will tell the Pi 0 to send all the images to the Pi 5 for stitching and storage.
 
 
 </p>
