@@ -231,7 +231,7 @@ export default function Home() {
               
               
               <p>
-              Soil temperature and moisture are two critical data points farmers need to track to decide when to plant crops so seeds can germinate properly and they can maximize their yield.
+              Soil temperature and moisture are critical data points farmers need to track to decide when to plant crops so seeds can germinate properly and they can maximize their yield.
 
 Additionally, when crops mature, farmers need to track growth and catch early signs of disease to keep them healthy. However, many local farms still rely on labor-intensive manual inspections to accomplish this.
 
