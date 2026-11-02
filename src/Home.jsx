@@ -278,7 +278,7 @@ Additionally, when crops mature, farmers need to track growth and catch early si
       </p>
 
        <p>
-     Rovers can easily switch between the pre-planting and in-season modes by swapping their top assemblies.
+     Rovers can switch between the pre-planting and in-season modes by swapping their top assemblies.
       </p>
   </div>
 </div>
