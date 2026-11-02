@@ -1791,6 +1791,116 @@ const MONTHS_DATA = [
 
             
             <div className="text-slate-500 pt-1">
+        <p className="text-slate-400 leading-relaxed mb-4">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   October 31st, 2026: Nathan assembled the soil monitoring parts on the treaded rover and tested penetration with the new design. He realized the sensor adapter needs to be reprinted with smaller sides and the lowered middle rectangle to hold the wire so it can move smoothly through the hole. For the November farm visit, we plan to have the rovers autonomously drive to waypoints, but we will manually control penetration in case the actuator gets stuck. To make everything autonomous later, we will use ultrasonic sensors under the rover to detect whether the actuator is lifting it. If it is, the sensors will signal to the actuator to stop penetrating. Next steps are designing a cover for all the exposed wires and boards and seeing how it drives with everything assembled (extended treads and penetration tower).
+
+
+</p>
+          <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+               
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/10317.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Image 2 */}
+            <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/10318.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Image 3 */}
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/10319.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/103111.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+               
+                </div>
+                            <p className="text-slate-400 leading-relaxed mb-4">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   October 30th, 2026: Landon successfully extended the rover's treads by designing the frame in Blender and 3D-printing a prototype. The final frame will be printed in carbon fiber to make it more rigid for driving.
+
+                He also 3d printed longer treads but they turned out to be rough and less detailed than the real thing, so we are resin printing the treads instead.
+                   </p>
+                          <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+               
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/10313.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Image 2 */}
+            <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/10314.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Image 3 */}
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/10315.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/10311.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/10312.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+                </div>
                 <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
@@ -1964,26 +2074,9 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                         </div>
                         </div> 
                       
-            <p className="text-slate-400 leading-relaxed mb-4">
-                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   October 1st, 2026: Abstract submitted to ECPA.
-                    </p>
+           
 
-                                     <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
-                
-                    {/* Image 1 */}
-                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
-                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
-                            <img
-                                src="/ecpasubmission.png"
-                                alt="August progress 1"
-                                className="w-full h-full object-contain pointer-events-none"
-                            />
-                        </div>
-                    </div>
-
-                
-                </div>
+                                     
                     </div>
                     
         ),
@@ -1992,7 +2085,53 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         name: "November",
         year: "2026",
         content: (
-            <div className="text-slate-500 italic pt-1">No updates yet.</div>
+            <div className="text-slate-500 pt-1">
+
+                <p className="text-slate-400 leading-relaxed mb-4">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 1st, 2026: Nathan set up panoramas with the Pi 0 by taping the camera and board to a box and manually rotating it in small increments. Using a script on the Pi 0, he took a picture after each rotation. He then sent the individual images to the Pi 5, where another program stitched them together using OpenCV and saved the final panorama to the SSD.
+
+How this applies to the rover: Instead of turning continuously, the arm will rotate in small increments and signal the Pi 0 to take a picture after each step. Once the arm is done turning, it will tell the Pi 0 to send all the images to the Pi 5 for stitching and storage.
+
+
+</p>
+
+          <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+               
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/1121.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+
+                    {/* Image 2 */}
+            <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                          <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/1122.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                           <figcaption className="mt-4 text-sm leading-relaxed">
+                               Gaps are likely due to hand movements
+                            </figcaption>
+                    </div>
+
+          
+               
+                </div>
+            </div>
         ),
     },
     {
@@ -2041,7 +2180,7 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
 
 export default function About() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [currentMonthIndex, setCurrentMonthIndex] = useState(5);
+    const [currentMonthIndex, setCurrentMonthIndex] = useState(6);
 
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
