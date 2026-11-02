@@ -2090,7 +2090,7 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                 <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   November 2nd, 2026: The rover detected a small elevation change (when it was lifted it approx. 5 inches) using its RTK GPS, allowing it to set the is_mound variable for every point it samples in the field. The autonomous navigation code was also updated to send the rover's updated location to the RTK provider as it drives, rather than repeatedly sending its initial location.
+                   November 2nd, 2026: The rover detected a small elevation change (when it was lifted approx. 5 inches) using its RTK GPS, allowing it to set the is_mound variable for every point it samples in the field. The autonomous navigation code was also updated to send the rover's updated location to the RTK provider as it drives, rather than repeatedly sending its initial location.
 
 
 </p>
