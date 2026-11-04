@@ -1845,7 +1845,7 @@ const MONTHS_DATA = [
                             <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   October 30th, 2026: Landon successfully extended the rover's treads by designing the frame in Blender and 3D-printing a prototype. The final frame will be printed in carbon fiber to make it more rigid for driving.
+                   October 30th, 2026: Landon successfully extended the rover's treads by designing the frame in Blender and 3D-printing a prototype. The final frame will be printed in carbon fiber (PPA-CF) to make it more rigid for driving.
 
                 He also 3d printed longer treads but they turned out to be rough and less detailed than the actual ones, so he is going to use a resin printer instead.
                    </p>
