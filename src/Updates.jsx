@@ -2090,7 +2090,7 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                 <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   November 3rd, 2026: Started designing the rover cover. We're planning to push pegs into the side holes to hold the cover up. We need a way to reattach the top and bottom halves of the cover after printing (we split it into two halves because our 3D printer has a printing height limit).
+                   November 3rd, 2026: Started designing the rover cover. We're planning to push pegs into the side holes to hold the cover up. We need a way to reattach the top and bottom halves of the cover after printing (we split it into two halves because our 3D printer has a printing height limit). Landon and Nathan were also invited for a 20 minute presentation at the November 10th CropTwin AI meeting.
 
 
 </p>
