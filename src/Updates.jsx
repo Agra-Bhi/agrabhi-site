@@ -2090,6 +2090,48 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                 <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 3rd, 2026: Started designing the rover cover. We're planning to push pegs into the side holes to hold the cover up. We need a way to reattach the top and bottom halves of the cover after printing (we split it into two halves because our 3D printer has a printing height limit).
+
+
+</p>
+
+          <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+               
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/1131.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/1132.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+
+           
+
+          
+               
+                </div>
+
+                <p className="text-slate-400 leading-relaxed mb-4">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                    November 2nd, 2026: The rover detected a small elevation change (when it was lifted approx. 5 inches) using its RTK GPS, allowing it to set the is_mound variable for every point it samples in the field. The autonomous navigation code was also updated to send the rover's updated location to the RTK provider as it drives, rather than repeatedly sending its initial location.
 
 
