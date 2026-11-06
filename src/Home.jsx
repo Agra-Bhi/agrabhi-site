@@ -220,8 +220,8 @@ export default function Home() {
           </h2>
           <div className="text-base font-light text-slate-300 leading-relaxed">
             <p>
-      AgraBhi is a student-led project being made to help farmers make informed crop-management decisions throughout the growing season. Before planting, instead of relying on contactless sensors or sparsely scattered probes that provide uncertain data, AgraBhi uses probes on swarms of rovers to generate detailed soil moisture and temperature predictions across the field. During the growing season, AgraBhi analyzes crops (currently limited to cotton) for boll counts and disease.
-      </p>
+     AgraBhi is a project by Nathan Sharma and Landon Morrison that helps farmers make informed crop-management decisions throughout the growing season. Before planting, instead of relying on contactless sensors or sparsely scattered probes that provide uncertain data, AgraBhi uses probes on swarms of rovers to generate detailed soil moisture and temperature predictions across the field. During the growing season, AgraBhi analyzes crops (currently limited to cotton) for boll counts and disease.
+     </p>
     
 
             <div className="pt-6">
@@ -253,6 +253,14 @@ Additionally, when crops mature, farmers need to track growth and catch early si
   {/* The 2-column grid now holds the first two balanced items */}
 <div className="grid gap-6">
   <div>
+    <h3 className="text-white font-bold mb-3 flex items-center gap-2">
+      Implementation on Farms
+    </h3>
+    <p className="text-slate-400 font-light text-sm leading-relaxed">
+     AgraBhi is being implemented in collaboration with the Texas A&M AgriLife Extension. Our soil moisture data help local farmers make better-informed planting decisions, and our cotton boll data provide AgriLife’s models with growth indicators, helping them better predict yield on their partner farms.
+</p>
+  </div>
+  <div>
     <h3 className="text-white font-bold flex items-center gap-2 mb-3">
       Drone to Rovers
     </h3>
@@ -282,6 +290,7 @@ Additionally, when crops mature, farmers need to track growth and catch early si
       </p>
   </div>
 </div>
+
 <div className="flex flex-col md:flex-row gap-6 items-stretch w-full mb-4 mt-10">
   
   {/* Image Figure 1 */}
@@ -329,14 +338,7 @@ Additionally, when crops mature, farmers need to track growth and catch early si
 
 </div>
   </div>
-   <div>
-    <h3 className="text-white font-bold mb-3 flex items-center gap-2">
-      Implementation on Farms
-    </h3>
-    <p className="text-slate-400 font-light text-sm leading-relaxed">
-     AgraBhi is being implemented in collaboration with the Texas A&M AgriLife Extension. Our soil moisture data help local farmers make better-informed planting decisions, and our cotton boll data provide AgriLife’s models with growth indicators, helping them better predict yield on their partner farms.
-</p>
-  </div>
+   
 </div>
 
   <div className=" max-w-4xl">
@@ -353,7 +355,7 @@ Additionally, when crops mature, farmers need to track growth and catch early si
     Old Work
   </h2>
 
-  <p className="mt-3 mb-3 text-slate-400">This was a soil moisture drone project created during the 2025–2026 school year by Nathan Sharma (founder and lead), Evan Quach, and Landon Morrison.  </p>
+  <p className="mt-3 mb-3 text-slate-400">This was a soil moisture drone project created in the 2025–2026 school year by Nathan Sharma, Landon Morrison, and Evan Quach. </p>
   {/* Hidden on small screens, shown on md and up */}
    <div className="mt-6 mb-6 mx-auto relative aspect-video rounded-xl overflow-hidden border border-slate-800 bg-black w-full md:w-[70%]">
     <iframe
