@@ -2086,6 +2086,52 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         year: "2026",
         content: (
             <div className="text-slate-500 pt-1">
+                 <p className="text-slate-400 leading-relaxed mb-4">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 9th, 2026: Nathan got treaded rover driving and coded it to drive forward a small distance, stop, extend its actuator (for sensor penetration), and retract. The rover cover is still being printed. We're only printing the bottom half because that's all we need to check its dimensions. If it fits, we'll print the rest of the cover and put it on the rover.
+Next steps: Getting it to navigate and detect elevation changes with RTK, increase weight on bottom (up to 10 pounds) to lower center of gravity for stability, radio communication. 
+</p>
+       <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                 <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <video
+                            src="/1191.MOV"
+                            controls
+                            muted
+                            preload="metadata"
+                            className="w-full h-auto aspect-video object-cover block"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
+                                 
+                </div>
+                   <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/1192.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+                 <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <video
+                            src="/1193.MOV"
+                            controls
+                            muted
+                            preload="metadata"
+                            className="w-full h-auto aspect-video object-cover block"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
+                                 
+                </div>
+                </div>
+
+
      <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>

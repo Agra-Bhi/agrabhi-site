@@ -162,7 +162,7 @@ export default function Home() {
         />
         <div className="pt-1 sm:pt-0">
           <p className="text-[11px] sm:text-xs uppercase tracking-wider text-slate-400 font-semibold mb-0.5 sm:h-8 flex items-end">
-            Category Winner &amp; State Finalist
+            Winner &amp; State Finalist
           </p>
           <p className="text-sm font-medium text-slate-200">
             2026 Science &amp; Engineering Fair of Houston
@@ -182,7 +182,7 @@ export default function Home() {
         />
         <div className="pt-1 sm:pt-0">
           <p className="text-[11px] sm:text-xs uppercase tracking-wider text-slate-400 font-semibold mb-0.5 sm:h-8 flex items-end">
-            Category Winner
+            Winner
           </p>
           <p className="text-sm font-medium text-slate-200">
             2026 Texas Science &amp; Engineering Fair
