@@ -2091,7 +2091,37 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                    November 9th, 2026: Nathan got treaded rover driving and coded it to drive forward a small distance, stop, extend its actuator (for sensor penetration), and retract. The rover cover is still being printed. We're only printing the bottom half because that's all we need to check its dimensions. If it fits, we'll print the rest of the cover and put it on the rover.
 Next steps: Getting it to navigate and detect elevation changes with RTK, increase weight on bottom (up to 10 pounds) to lower center of gravity for stability, radio communication. 
+
+
+
 </p>
+
+ <div className="flex flex-col space-y-1 text-xs text-slate-400 mb-4">
+      <span>Example scenario for November farm visit:</span>
+  <span className="font-bold">Go</span>
+  <span className="font-mono">[ROVER DRIVING TO POINT 1]</span>
+  <span className="font-mono">[ROVER ARRIVED AT POINT 1]</span>
+  <span className="font-mono">[ROVER IS SUPPOSED TO BE AT A MOUND, USING RTK GPS TO VERIFY]</span>
+  <span className="font-mono">[DRIVING BACKWARD AND TRACKING ELEVATION CHANGE]</span>
+  <span className="font-mono">[DRIVING FORWARD AND TRACKING ELEVATION CHANGE]</span>
+  <span className="font-mono">[CONFIRMED: I AM ON A MOUND]</span>
+  
+  <span className="mt-2 font-bold">Extend</span>
+  <span className="font-mono">[ACTUATOR EXTENDING]</span>
+  <span className="mt-2 font-bold">Stop</span>
+  <span className="font-mono">[ACTUATOR STOPPED]</span>
+  <span className="mt-2 font-bold">Measure</span>
+  <span className="font-mono">[LOGGED MOUND, MOISTURE, TEMP, LOCATION]</span>
+  <span className="mt-2 font-bold">Retract</span>
+  <span className="font-mono">[ACTUATOR RETRACTED]</span>
+
+  
+  <span className="mt-2 font-bold">Go</span>
+  <span className="font-mono">[ROVER DRIVING TO POINT 2]</span>
+  <span className="font-mono">[ROVER IS SUPPOSED TO BE AT A FURROW, USING RTK GPS TO VERIFY]</span>
+  <span>etc</span>
+</div>
+
        <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
                  <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
                         <video
