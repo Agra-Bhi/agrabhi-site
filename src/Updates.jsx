@@ -2086,6 +2086,57 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         year: "2026",
         content: (
             <div className="text-slate-500 pt-1">
+
+                <p className="text-slate-400 leading-relaxed mb-4">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 10th, 2026: We printed part of the bottom half of the cover; it fit better than expected! Nathan fixed issues with the cover leaving too large a gap behind the rover and with the peg fitting, made the cover thinner overall, and sent the revised design to Landon for full printing.
+</p>
+
+      <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                
+                   <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/1101.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+                       <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/1104.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+                     
+                  <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/1103.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+                                 
+           
+                </div>
+
+
                  <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
