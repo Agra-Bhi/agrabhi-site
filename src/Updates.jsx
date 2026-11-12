@@ -2090,6 +2090,26 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                 <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 11th, 2026: Nathan got the rover to drive to a waypoint (both autonomous and teleop) using the radios. Next steps: Get it so we can use the radios to control penetration and measurement collection, get GPS to track elevation changes to determine if it is on a mound or furrow.
+
+                   </p>
+<div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+        <video
+            src="/11111.MOV"
+            controls
+            muted
+            preload="metadata"
+            className="w-full h-auto aspect-video object-cover object-[center_75%] block"
+        >
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+               
+                <p className="text-slate-400 leading-relaxed mb-4">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                    November 10th, 2026: We printed part of the bottom half of the cover; it fit better than expected! Nathan fixed issues with the cover leaving too large a gap behind the rover and with the peg fitting, made the cover thinner overall, and sent the revised design to Landon for full printing.
 </p>
 
