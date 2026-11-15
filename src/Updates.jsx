@@ -2087,6 +2087,35 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         content: (
             <div className="text-slate-500 pt-1">
 
+
+<div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                 <p className="text-slate-400 leading-relaxed">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 14th, 2026:<span className="font-bold"> The moisture rover is ready for the November farm visit.</span> For now, it will be manually controlled. We will also manually log mound status instead of using the GPS's elevation change. Landon will get the rover tomorrow to design the cover, add weight to the base, and test his extended treads for more stability. Next month, we will work toward getting everything autonomous!
+
+
+                   </p>
+        
+                 </div>
+                  <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                
+        
+                   <div className="w-[48%] aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <iframe
+                                className="w-full h-full"
+                                src="https://youtube.com/embed/PUOUHrEKuKA"
+                                title="October 4th, 2026 update"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                        </div>  
+ <p className="text-slate-400 leading-relaxed mb-4">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 13th, 2026: Landon and Nathan were interviewed by FIRST LEGO League to discuss their experiences with AgraBhi and how those experiences can inform students working on BIOGLOW. Interview video will be shared here once uploaded to Youtube.
+                   </p>
                 <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
