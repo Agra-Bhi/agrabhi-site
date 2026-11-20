@@ -2087,8 +2087,31 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         content: (
             <div className="text-slate-500 pt-1">
 
+                <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+  <p className="text-slate-400 leading-relaxed">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 15th - 22nd, 2026: Landon extended the rover treads, printed the redesigned sensor adapter (which ended up fitting perfectly), redesigned and reprinted the ESP and battery holders, and created the final rover cover. 
+
+                   
+
+
+                   </p>
+                   </div>
+<div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                    <p className="text-slate-400 leading-relaxed">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 18th, 2026: Science fair category selection and final revisions to research plan. Once Nathan gets the rover back from Landon, he will also need to code it to collect stability and cross-track error data to measure driving performance. 
+
+
+                   </p>
+                   </div>
 
 <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+
+   
+                   
                  <p className="text-slate-400 leading-relaxed">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
