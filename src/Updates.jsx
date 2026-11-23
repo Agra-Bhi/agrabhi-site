@@ -2087,17 +2087,60 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         content: (
             <div className="text-slate-500 pt-1">
 
+
+  <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+  <p className="text-slate-400 leading-relaxed">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 22nd, 2026: Nathan received the rover back from Landon and reattached the new sensor adapter. He also began coding stability data collection. 
+                   </p>
+                   </div>
+
+            
+
                 <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
   <p className="text-slate-400 leading-relaxed">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   November 15th - 22nd, 2026: Landon extended the rover treads, printed the redesigned sensor adapter (which ended up fitting perfectly), redesigned and reprinted the ESP and battery holders, and created the final rover cover. 
+                   November 15th - 21st, 2026: Landon extended the rover treads, printed the redesigned sensor adapter (which ended up fitting perfectly), redesigned and reprinted the ESP and battery holders, and created the final rover cover. 
 
                    
 
 
                    </p>
                    </div>
+
+                                <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                
+                   <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/11211.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+                       <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/11212.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+                     
+                
+                                 
+           
+                </div>
 <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
                     <p className="text-slate-400 leading-relaxed">
                     
