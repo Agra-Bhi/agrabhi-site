@@ -2095,7 +2095,43 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                    November 22nd, 2026: Nathan received the rover back from Landon and reattached the new sensor adapter. He also began coding stability data collection. 
                    </p>
                    </div>
-
+                    <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                        <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                  <figure className="flex flex-col flex-1">
+        <div className="w-full aspect-video overflow-hidden">
+            <video
+                src="/11222.MOV"
+                controls
+                muted
+                preload="metadata"
+                className="w-full h-full object-contain block"
+            >
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <figcaption className="mt-4 text-sm leading-relaxed">
+        
+        </figcaption>
+    </figure>
+    </div>
+                  
+                       <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/11221.PNG"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+                      
+                    </div>
+                     
+                
+                                 
+           
+                </div>
             
 
                 <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
