@@ -2087,12 +2087,46 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         content: (
             <div className="text-slate-500 pt-1">
 
+<div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+  <p className="text-slate-400 leading-relaxed">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 23rd, 2026: Nathan finished the code that logs rover stability metrics, so we officially have all the code we need for the December farm visit! We plan to split the visit up into two days. On the first day, we will collect only soil data to generate the maps (moving the rover by hand to points and extending the actuator). On the second day, we will collect rover driving metrics (stability, arrival error, GPS error, etc.).
+</p>
+                   </div>
+
+      <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+               
+                    <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/11231.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Image 2 */}
+            <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/11232.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+                 
+             
+                </div>
 
   <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
   <p className="text-slate-400 leading-relaxed">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   November 22nd, 2026: Nathan received the rover back from Landon and reattached the new sensor adapter. He also began coding stability data collection. 
+                   November 22nd, 2026: Nathan received the rover back from Landon and reattached the new sensor adapter. It fit perfectly and moved smoothly through the hole without touching the rover's motors. 
                    </p>
                    </div>
                     <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
@@ -2194,7 +2228,7 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                  <p className="text-slate-400 leading-relaxed">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   November 14th, 2026:<span className="font-bold"> The moisture rover is ready for the November farm visit.</span> For now, it will be manually controlled. We will also manually log mound status instead of using the GPS's elevation change. Landon will get the rover tomorrow to design the cover, add weight to the base, and test his extended treads for more stability. Next month, we will work toward getting everything autonomous!
+                   November 14th, 2026: For now, the moisture rover will be manually controlled. We will also manually log mound status instead of using the GPS's elevation change. Landon will get the rover tomorrow to design the cover, add weight to the base, and test his extended treads for more stability. Next month, we will work toward getting everything autonomous!
 
 
                    </p>
