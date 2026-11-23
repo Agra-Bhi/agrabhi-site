@@ -2119,7 +2119,7 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
                        <figure>
                         <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
                             <img
-                                src="/11221.PNG"
+                                src="/11221.png"
                                 alt="August progress 1"
                                 className="w-full h-full object-contain pointer-events-none"
                             />
