@@ -2091,7 +2091,7 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
   <p className="text-slate-400 leading-relaxed">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   November 23rd, 2026: Nathan finished the code that logs rover stability metrics, so we officially have all the code we need for the December farm visit! We plan to split the visit up into two days. On the first day, we will collect only soil data to generate the maps (moving the rover by hand to points and extending the actuator). On the second day, we will collect rover driving metrics (stability, arrival error, GPS error, etc.).
+                   November 23rd, 2026: Nathan finished the code that logs rover stability metrics, so we officially have all the code we need for the December farm visit! We plan to split the visit up into two days. On the first day, we will collect only soil data to generate the maps (moving the rover by hand to points and extending the actuator). On the second day, we will collect rover driving metrics (stability, arrival error, and GPS error).
 </p>
                    </div>
 
