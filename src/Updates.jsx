@@ -2091,6 +2091,18 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
   <p className="text-slate-400 leading-relaxed">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 24th, 2026: We created an app that lets us fully control the rover from our phones. It logs GPS, soil moisture, temperature, and mound-status data; controls sensors and rover movement; and easily logs stability metrics as the rover drives. However, altitude measurements from RTK GPS (which determine the mound status being logged) are very unstable in RTK float. Tomorrow, we will test the rover outdoors to check altitude stability when it gets an RTK fix. We plan to put this app on the App Store so farmers can access it on their devices. Later, we will adapt it to monitor multiple autonomous rovers and generate heatmaps as soon as they finish sampling.
+                             Also, the soil sensor still isn’t connected because the rover needs to power both the linear actuator and soil sensor from the same DC port on our power bank, so today we bought a 1 male-to-2 female DC power splitter cable. 
+
+</p>
+                   </div>
+
+    
+
+<div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+  <p className="text-slate-400 leading-relaxed">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
                    November 23rd, 2026: Nathan finished the code that logs rover stability metrics, so we officially have all the code we need for the December farm visit! We plan to split the visit up into two days. On the first day, we will collect only soil data to generate the maps (moving the rover by hand to points and extending the actuator). On the second day, we will collect rover driving metrics (stability, arrival error, and GPS error).
 </p>
                    </div>
@@ -2509,7 +2521,7 @@ Next steps: Getting it to navigate and detect elevation changes with RTK, increa
                 <p className="text-slate-400 leading-relaxed mb-4">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   November 2nd, 2026: The rover detected a small elevation change (when it was lifted approx. 5 inches) using its RTK GPS, allowing it to set the is_mound variable for every point it samples in the field. The autonomous navigation code was also updated to send the rover's updated location to the RTK provider as it drives, rather than repeatedly sending its initial location.
+                   November 2nd, 2026: The rover detected a small elevation change (when it was lifted approx. 5 inches) using its RTK GPS, allowing it to set the is_mound variable for every point it samples in the field.
 
 
 </p>
