@@ -1151,7 +1151,7 @@ const MONTHS_DATA = [
                 </div>
                 <p className="text-slate-400 leading-relaxed mb-4">
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                    August 21st, 2026: ArmCam was created and parts were
+                    August 21st, 2026: PrivacyPolicy was created and parts were
                     ordered. We're also switching to a tracked rover.
                 </p>
                 <div className="flex flex-col md:flex-row gap-6 items-stretch w-full mb-4">
@@ -1735,7 +1735,7 @@ const MONTHS_DATA = [
                     September 1st, 2026: Version 3 of the penetration tower was
                     successfully printed and tested. The rover was able to fully
                     push the sensor into dry soil. Our tracked rover and robotic
-                    arm for ArmCam also arrived today.
+                    arm for PrivacyPolicy also arrived today.
                 </p>
 
                 <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">

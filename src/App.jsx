@@ -7,7 +7,7 @@ import DataHub from "./DataHub";
 import "leaflet/dist/leaflet.css";
 import About from "./About";
 import Updates from "./Updates";
-import ArmCam from "./ArmCam";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/dashboard" element={<DataHub />} />
         <Route path="/about" element={<About />} />
         <Route path="/updates" element={<Updates />} />
-        <Route path="/armcam" element={<ArmCam />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
   );

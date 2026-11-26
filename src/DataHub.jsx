@@ -554,11 +554,11 @@ async function syncVariogramToBackend(chosenModel) {
              Home
              </a>
              <a 
-              href="https://agrabhi.com/armcam.html" 
-              onClick={(e) => { e.preventDefault(); window.location.href = "https://agrabhi.com/armcam.html"; }}
+              href="https://agrabhi.com/PrivacyPolicy.html" 
+              onClick={(e) => { e.preventDefault(); window.location.href = "https://agrabhi.com/PrivacyPolicy.html"; }}
               className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
             >
-              ArmCam
+              PrivacyPolicy
             </a>
              <a 
                href="https://agrabhi.com/updates.html" 
@@ -625,11 +625,11 @@ async function syncVariogramToBackend(chosenModel) {
               Home
              </a>
              <a 
-              href="https://agrabhi.com/armcam.html" 
-              onClick={(e) => { e.preventDefault(); window.location.href = "https://agrabhi.com/armcam.html"; }}
+              href="https://agrabhi.com/PrivacyPolicy.html" 
+              onClick={(e) => { e.preventDefault(); window.location.href = "https://agrabhi.com/PrivacyPolicy.html"; }}
               className="text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-emerald-500 transition-colors"
             >
-              ArmCam
+              PrivacyPolicy
             </a>
              <a 
                href="https://agrabhi.com/updates.html" 
