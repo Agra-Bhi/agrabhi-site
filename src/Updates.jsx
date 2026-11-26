@@ -2087,6 +2087,77 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         content: (
             <div className="text-slate-500 pt-1">
 
+
+<div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+  <p className="text-slate-400 leading-relaxed">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 26th: Tested the app and rover at Turkey Dash. Battery life was great (the rover still had 65% charge after 2 hours of on-and-off driving), and the app’s driving controls had no issues. Nathan also submitted the app for App Store publication. We've officially received all needed components for both rovers. Over the next two months, we'll shift our focus from building to preparing our project for competition submissions and working with AgriLife to get the rovers working on their farms.
+                   </p>
+                   </div>
+
+  <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                 <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/11260.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+                 
+ <div className="flex-[0_0_65%] sm:flex-[0_0_32%] min-w-0 snap-start self-start flex flex-col items-center justify-start py-2 rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+  <video
+    src="/11261.mov"
+    controls
+    muted
+    preload="metadata"
+    className="w-[45%] h-auto object-contain block"
+  >
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+
+
+                         <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/11262.png"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                    </div>
+
+            
+                </div>
+
+<div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+  <p className="text-slate-400 leading-relaxed">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 25th: Altitude was much more stable once the rover had an RTK fix, and it detected a 3-inch lift from the ground. Nathan bought a SIM card and Waveshare SIM dongle so the rover will have a wifi connection on the field.
+</p>
+                   </div>
+  <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+                 <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                        <video
+                            src="/11251.mp4"
+                            controls
+                            muted
+                            preload="metadata"
+                            className="w-full h-auto aspect-video object-cover block"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
+                                 
+                </div>
+                </div>
+
+
 <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
   <p className="text-slate-400 leading-relaxed">
                     
@@ -2097,6 +2168,23 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
 
 </p>
                    </div>
+<div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+
+                     <div className="flex-[0_0_85%] sm:flex-[0_0_48%] min-w-0 snap-start flex flex-col">
+                       <figure>
+                        <div className="w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-800">
+                            <img
+                                src="/11243.PNG"
+                                alt="August progress 1"
+                                className="w-full h-full object-contain pointer-events-none"
+                            />
+                        </div>
+                        </figure>
+
+                        <figcaption>Demo mode</figcaption>
+                      
+                    </div>
+                    </div>
 
     
 
