@@ -311,8 +311,8 @@ Additionally, when crops mature, farmers need to track growth and catch early si
   <figure className="flex flex-col flex-1">
     <div className="w-full aspect-video overflow-hidden">
       <img
-        src="/PrivacyPolicy.PNG"
-        alt="PrivacyPolicy"
+        src="/armcam.PNG"
+        alt="armcam"
         className="w-full h-full object-contain"
       />
     </div>
