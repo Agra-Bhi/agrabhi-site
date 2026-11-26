@@ -1,1 +1,0 @@
-var e=`/image1.jpeg`,t=`/image3.PNG`;export{e as n,t};
