@@ -2098,7 +2098,7 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
   <p className="text-slate-400 leading-relaxed">
                     
                     <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
-                   November 26th: Tested the app and rover at Turkey Dash. Battery life was great (the rover still had 65% charge after 2 hours of on-and-off driving), and the app’s driving controls had no issues. Nathan also submitted the app for App Store publication. We've officially received all needed components for both rovers. Over the next two months, we'll shift our focus from building to preparing our project for competition submissions and working with AgriLife to get the rovers working on their farms.
+                   November 26th, 2026: Tested the app and rover at Turkey Dash. Battery life was great (the rover still had 65% charge after 2 hours of on-and-off driving), and the app’s driving controls had no issues. Nathan also submitted the app for App Store publication. We've officially received all needed components for both rovers. Over the next two months, we'll shift our focus from building to preparing our project for competition submissions and working with AgriLife to get the rovers working on their farms.
                    </p>
                    </div>
 
