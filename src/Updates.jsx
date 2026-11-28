@@ -2086,7 +2086,13 @@ Note: Aiming directly for the target coordinates instead of the dummy points 20 
         year: "2026",
         content: (
             <div className="text-slate-500 pt-1">
-
+<div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
+  <p className="text-slate-400 leading-relaxed">
+                    
+                    <span className="inline-block w-2 h-2 bg-white rounded-full mr-3 mb-[2px]"></span>
+                   November 27th, 2026: Paper abstract, introduction, and materials & methods finished. All that's left is collecting data and writing the discussion and conclusion.
+                   </p>
+                   </div>
 
 <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 no-scrollbar">
   <p className="text-slate-400 leading-relaxed">
